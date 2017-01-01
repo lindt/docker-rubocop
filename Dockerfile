@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER think@hotmail.de
 
-ENV RUBOCOP_VERSION=0.8.0
+ENV RUBOCOP_VERSION=0.8.1
 
 RUN gem install rubocop --version ${RUBOCOP_VERSION} --no-format-exec
 
