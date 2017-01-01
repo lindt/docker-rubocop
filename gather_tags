@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -fqs https://rubygems.org/gems/rubocop/versions | grep rubocop/versions/ | sed 's/.*rubocop\/versions\///' | cut -d '"' -f 1 | sort -n | uniq
